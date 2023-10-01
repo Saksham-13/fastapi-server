@@ -1,0 +1,19 @@
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore the virtual environment directory
+venv/
+
+# Ignore any generated or temporary files
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+
+# Ignore the generated FastAPI documentation directory
+docs/
+
+# Ignore any files in the uploaded_images directory (if needed)
+uploaded_images/*
